@@ -12,6 +12,14 @@ Site GitHub Pages — **PRIMA App V0.1 — Stable**
 
 Archive portable (optionnelle) : `PRIMA_App_V0_1_Install.zip`
 
+## Cette version inclut
+
+- Application Windows `.exe` avec logo PRIMA
+- Ranking optionnel : minimum 1 réponse par question (non choisies = 0 point)
+- Résultats en pourcentages réels, boussole PRIMA, export lecture
+- Univers / Territoire / Race, identité PRIMA (3 choix visibles)
+- Reprise test et rester connecté sécurisés
+
 ## Message Windows SmartScreen
 
 Au premier lancement, Windows peut afficher :
@@ -25,20 +33,6 @@ Pour lancer l'app :
 
 Important : téléchargez PRIMA App uniquement depuis le lien officiel GitHub Pages.
 
-## TODO futur
+## Profil neuf recommandé
 
-- Acheter / utiliser un certificat de signature code
-- Signer PRIMA_App_Setup.exe
-- Réduire / éviter SmartScreen
-
-## Contenu
-
-- Soul / VDA / Shadow, questions chirurgicales
-- Reprise test sécurisée, rester connecté sécurisé
-- Ranking corrigé + modification de l'ordre possible
-- Choix Univers, Territoire, Race / Forme symbolique
-- Identité PRIMA verrouillée par profil
-
-**Important :** créez un **profil neuf**. Les anciens profils de test peuvent contenir des états corrompus.
-
-URL : https://kaikoredstartrp-max.github.io/prima-app-download/
+Créez un profil neuf pour cette version. Les anciens profils de test peuvent contenir des états corrompus.
