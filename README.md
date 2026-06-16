@@ -10,7 +10,7 @@ Site GitHub Pages — **PRIMA App V0.1 — Stable**
 2. Lancez-le (aucun droit administrateur requis).
 3. Ouvrez PRIMA App depuis le bureau ou le menu Démarrer.
 
-Archive portable (optionnelle) : `PRIMA_App_V0_1_Install.zip`
+Archive portable (optionnelle) : `PRIMA_App_V0_1_Public.zip`
 
 ## Cette version inclut
 
