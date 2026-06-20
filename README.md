@@ -1,13 +1,20 @@
 # prima-app-download
 
-Site GitHub Pages — **PRIMA App V0.1 — test famille privé** (Génie durci, commit `512a50f`).
+Site GitHub Pages — **PRIMA App V0.1 — test famille privé** (Génie · banque source-driven multi · choix multiples).
 
 **Ne pas partager le lien publiquement.** Usage cercle proche uniquement.
 
 ## Téléchargement
 
+- **Page :** https://kaikoredstartrp-max.github.io/prima-app-download/
 - **Installateur :** [PRIMA_App_Setup.exe](PRIMA_App_Setup.exe)
 - **ZIP portable :** [PRIMA_App_V0_1_Family.zip](PRIMA_App_V0_1_Family.zip)
+
+## Contenu package validé
+
+- `settings/prima_questionnaire.ini` → mode genie + bank multi
+- `prima-soul-engine/output/genie_bank_v2_merged_source_driven_multi.json`
+- Aucun profil utilisateur · aucune donnée personnelle
 
 ## Prérequis testeur
 
@@ -17,13 +24,7 @@ Site GitHub Pages — **PRIMA App V0.1 — test famille privé** (Génie durci, 
 
 ## Parcours
 
-PRIMA Soul → **PRIMA Génie** (parcours unique) → lecture symbolique après complétion.
-
-Réponds instinctivement. Ce n'est pas un diagnostic. Appeler Kelly après résultat.
-
-## SmartScreen
-
-« Windows a protégé votre ordinateur » → Informations complémentaires → Exécuter quand même.
+PRIMA Soul → **PRIMA Génie** (multi-choix, compteur visible) → lecture symbolique après complétion.
 
 ## Déploiement (opérateur)
 
@@ -31,8 +32,6 @@ Réponds instinctivement. Ce n'est pas un diagnostic. Appeler Kelly après résu
 tools\build_family_package.bat
 ```
 
-Puis copier `PRIMA_Download_Package\out\*` vers ce repo et `git push`.
+Puis copier `PRIMA_Download_Package\out\*` vers ce repo, mettre à jour `index.html`, `git push`.
 
-## Indexation
-
-`robots.txt` + meta `noindex` — lien discret, pas sécurité réelle (Pages reste public).
+Package SHA256 (ZIP) : voir commit message de release.
