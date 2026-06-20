@@ -1,38 +1,38 @@
 # prima-app-download
 
-Site GitHub Pages — **PRIMA App V0.1 — Stable**
+Site GitHub Pages — **PRIMA App V0.1 — test famille privé** (Génie durci, commit `512a50f`).
 
-## Téléchargement principal
+**Ne pas partager le lien publiquement.** Usage cercle proche uniquement.
 
-**Installateur Windows :** [PRIMA_App_Setup.exe](PRIMA_App_Setup.exe)
+## Téléchargement
 
-1. Téléchargez l'installateur.
-2. Lancez-le (aucun droit administrateur requis).
-3. Ouvrez PRIMA App depuis le bureau ou le menu Démarrer.
+- **Installateur :** [PRIMA_App_Setup.exe](PRIMA_App_Setup.exe)
+- **ZIP portable :** [PRIMA_App_V0_1_Family.zip](PRIMA_App_V0_1_Family.zip)
 
-Archive portable (optionnelle) : `PRIMA_App_V0_1_Public.zip`
+## Prérequis testeur
 
-## Cette version inclut
+- Windows 10 ou 11
+- Node.js + npx (moteur PRIMA Génie)
+- AutoHotkey v2 **non** requis
 
-- Application Windows `.exe` avec logo PRIMA
-- Ranking optionnel : minimum 1 réponse par question (non choisies = 0 point)
-- Résultats en pourcentages réels, boussole PRIMA, export lecture
-- Univers / Territoire / Race, identité PRIMA (3 choix visibles)
-- Reprise test et rester connecté sécurisés
+## Parcours
 
-## Message Windows SmartScreen
+PRIMA Soul → **PRIMA Génie** (parcours unique) → lecture symbolique après complétion.
 
-Au premier lancement, Windows peut afficher :
-« Windows a protégé votre ordinateur ».
+Réponds instinctivement. Ce n'est pas un diagnostic. Appeler Kelly après résultat.
 
-Cela arrive parce que PRIMA App V0.1 n'est pas encore signée avec un certificat officiel.
+## SmartScreen
 
-Pour lancer l'app :
-1. Cliquer sur « Informations complémentaires »
-2. Cliquer sur « Exécuter quand même »
+« Windows a protégé votre ordinateur » → Informations complémentaires → Exécuter quand même.
 
-Important : téléchargez PRIMA App uniquement depuis le lien officiel GitHub Pages.
+## Déploiement (opérateur)
 
-## Profil neuf recommandé
+```bat
+tools\build_family_package.bat
+```
 
-Créez un profil neuf pour cette version. Les anciens profils de test peuvent contenir des états corrompus.
+Puis copier `PRIMA_Download_Package\out\*` vers ce repo et `git push`.
+
+## Indexation
+
+`robots.txt` + meta `noindex` — lien discret, pas sécurité réelle (Pages reste public).
