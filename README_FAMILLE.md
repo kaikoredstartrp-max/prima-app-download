@@ -17,18 +17,11 @@ Les anciens tests séparés (3 cartes « Disponible ») ne doivent **pas** appar
 | Outil | Pourquoi |
 |--------|----------|
 | **Windows 10 ou 11** | Application de bureau |
-| **[AutoHotkey v2](https://www.autohotkey.com/)** | Lance l’interface PRIMA |
-| **[Node.js](https://nodejs.org/)** (avec **npx**) | Moteur adaptatif du parcours Génie |
+| **Installateur `PRIMA_App_Setup.exe`** | Installe PRIMA App (raccourcis menu Démarrer / bureau) |
 
-Vérification rapide (invite de commandes) :
+**Aucune installation technique requise** : AutoHotkey v2, Node portable et moteur CJS sont **embarqués** dans le dossier d’installation. Vous n’avez pas à installer Node.js ni AutoHotkey sur votre PC.
 
-```powershell
-node -v
-npx -v
-```
-
-AutoHotkey v2 est en général installé ici :  
-`C:\Program Files\AutoHotkey\v2\AutoHotkey64.exe`
+Téléchargement : page famille → bouton **Télécharger l’installateur PRIMA**.
 
 ---
 
@@ -46,9 +39,9 @@ Le questionnaire est en mode **Génie** :
 
 ## Lancement
 
-1. Ouvrir le dossier du projet PRIMA App.
-2. Double-cliquer sur **`launch_prima.ahk`**  
-   (ou lancer `PrimaApp.ahk` avec AutoHotkey v2).
+1. Télécharger et lancer **`PRIMA_App_Setup.exe`** (installateur Windows).
+2. Ouvrir **PRIMA App** depuis le menu Démarrer ou le raccourci bureau  
+   (ou double-clic **`LANCER_PRIMA.bat`** dans le dossier d’installation).
 3. Choisir ou **créer un profil** (de préférence un profil neuf pour un test complet).
 4. Suivre l’écran d’accueil jusqu’à **Home**.
 5. Cliquer sur **PRIMA Soul** (🧭).
