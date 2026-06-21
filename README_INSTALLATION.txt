@@ -1,41 +1,24 @@
-PRIMA App V0.1 — Version portable autonome test famille / proches
-=================================================================
+PRIMA App V0.1 — Installé via l’installateur PRIMA (test famille)
+===============================================================
 
-Version privée cercle proche — usage test uniquement.
-
-AUCUNE installation requise :
+Aucune installation technique requise :
 - Pas de Node.js à installer
-- Pas de npm / npx / tsx
-- Pas d'AutoHotkey à installer
-(Runtime embarqués dans runtime\)
+- Pas d’AutoHotkey à installer
+(Runtimes embarqués dans le dossier d’installation)
 
-Prérequis : Windows 10 ou 11 uniquement.
-
-Installation
+Lancer PRIMA
 ------------
-1. Télécharger le ZIP (PRIMA_App_V0_1_Family_Portable_NoNodeInstall.zip)
-2. Extraire le ZIP dans un dossier (ex. C:\PRIMA_Test)
-3. Ouvrir le dossier extrait
-4. Double-cliquer sur LANCER_PRIMA.bat
+- Raccourci menu Démarrer ou bureau : PRIMA App
+- Ou double-clic : LANCER_PRIMA.bat (dossier d’installation)
 
 Parcours test
 -------------
-1. L'app PRIMA s'ouvre
-2. Lancer PRIMA Génie
-3. Répondre instinctivement — une ou plusieurs réponses si besoin
-4. Aller jusqu'à la lecture finale si possible
-
-À renvoyer après le test
-------------------------
-- Est-ce que l'app se lance ?
-- Est-ce que PRIMA Génie démarre ?
-- Est-ce que les questions te parlent ?
-- Est-ce que le résultat final te ressemble ?
-- Bug ou message d'erreur ? (copier le texte ou envoyer une capture)
+1. PRIMA s’ouvre
+2. Créer un profil neuf → PRIMA Soul → PRIMA Génie
+3. Répondre (une ou plusieurs réponses) → lecture finale
 
 Si PRIMA Génie ne démarre pas
 -----------------------------
-Consulter : logs\genie_engine_last_error.txt
-(dans le dossier extrait, à côté de LANCER_PRIMA.bat)
+Consulter : logs\genie_engine_last_error.txt dans le dossier d’installation.
 
-Guide détaillé : README_FAMILLE.md
+Guide : README_FAMILLE.md

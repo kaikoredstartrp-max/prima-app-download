@@ -5,11 +5,16 @@ Page de téléchargement privée PRIMA App V0.1 (GitHub Pages).
 ## Live
 
 - **Page :** https://kaikoredstartrp-max.github.io/prima-app-download/
-- **Package validé :** [PRIMA_App_V0_1_Family_Portable_NoNodeInstall.zip](PRIMA_App_V0_1_Family_Portable_NoNodeInstall.zip)
+- **Installateur validé :** [PRIMA_App_Setup.exe](PRIMA_App_Setup.exe)
 
-Version test portable autonome — aucune installation Node/AutoHotkey requise. Extraire le ZIP, lancer `LANCER_PRIMA.bat`.
+NoNode portable — runtimes embarqués (AHK v2 + Node + moteur CJS). Raccourci lance `LANCER_PRIMA.bat`. Aucune installation Node/AutoHotkey requise.
 
-## Retiré de la page principale
+## Build
 
-- ~~PRIMA_App_Setup.exe~~ (non validé)
-- ~~PRIMA_App_V0_1_Family.zip~~ (Node requis / obsolète)
+`tools\build_family_installer_nonode.bat` → `PRIMA_Download_Package\out\PRIMA_App_Setup.exe`
+
+Inno Setup 6 · script `tools\PRIMA_App_Family_NoNode.iss`
+
+## Fallback interne (non bouton principal site)
+
+`PRIMA_App_V0_1_Family_Portable_NoNodeInstall.zip` — test / secours uniquement.
