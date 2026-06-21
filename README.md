@@ -1,37 +1,15 @@
 # prima-app-download
 
-Site GitHub Pages — **PRIMA App V0.1 — test famille privé** (Génie · banque source-driven multi · choix multiples).
+Page de téléchargement privée PRIMA App V0.1 (GitHub Pages).
 
-**Ne pas partager le lien publiquement.** Usage cercle proche uniquement.
-
-## Téléchargement
+## Live
 
 - **Page :** https://kaikoredstartrp-max.github.io/prima-app-download/
-- **Installateur :** [PRIMA_App_Setup.exe](PRIMA_App_Setup.exe)
-- **ZIP portable :** [PRIMA_App_V0_1_Family.zip](PRIMA_App_V0_1_Family.zip)
+- **Package validé :** [PRIMA_App_V0_1_Family_Portable_NoNodeInstall.zip](PRIMA_App_V0_1_Family_Portable_NoNodeInstall.zip)
 
-## Contenu package validé
+Version test portable autonome — aucune installation Node/AutoHotkey requise. Extraire le ZIP, lancer `LANCER_PRIMA.bat`.
 
-- `settings/prima_questionnaire.ini` → mode genie + bank multi
-- `prima-soul-engine/output/genie_bank_v2_merged_source_driven_multi.json`
-- Aucun profil utilisateur · aucune donnée personnelle
+## Retiré de la page principale
 
-## Prérequis testeur
-
-- Windows 10 ou 11
-- Node.js + npx (moteur PRIMA Génie)
-- AutoHotkey v2 **non** requis
-
-## Parcours
-
-PRIMA Soul → **PRIMA Génie** (multi-choix, compteur visible) → lecture symbolique après complétion.
-
-## Déploiement (opérateur)
-
-```bat
-tools\build_family_package.bat
-```
-
-Puis copier `PRIMA_Download_Package\out\*` vers ce repo, mettre à jour `index.html`, `git push`.
-
-Package SHA256 (ZIP) : voir commit message de release.
+- ~~PRIMA_App_Setup.exe~~ (non validé)
+- ~~PRIMA_App_V0_1_Family.zip~~ (Node requis / obsolète)
